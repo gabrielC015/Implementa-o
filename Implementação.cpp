@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Autor: João
-
 int main() {
     int num1, num2, soma, subtracao, multi;
     float div;
@@ -15,12 +13,12 @@ int main() {
     printf("Digite o segundo numero: ");
     scanf("%d", &num2);
 
-    // Operações
+    // OperaÃ§Ãµes
     soma = num1 + num2;
     subtracao = num1 - num2;
     multi = num1 * num2;
 
-    // Verificar se o segundo número é zero antes da divisão
+    // Verificar se o segundo nÃºmero Ã© zero antes da divisÃ£o
     if (num2 != 0) {
         div = (float) num1 / num2;
         printf("\nResultados:\n");
